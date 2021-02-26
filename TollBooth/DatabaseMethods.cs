@@ -45,7 +45,7 @@ namespace TollBooth
                          .Where(l => l.exported == false) .ToList();
                 // COMPLETE: licensePlates = _client.CreateDocumentQuery ...
                 // TODO 6: Remove the line below.
-                // //licensePlates = new List<LicensePlateDataDocument>();
+                // licensePlates = new List<LicensePlateDataDocument>();
             }
 
             exportedCount = licensePlates.Count();
